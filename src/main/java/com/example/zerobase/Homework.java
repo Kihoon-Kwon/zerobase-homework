@@ -35,6 +35,7 @@ public class Homework {
     }
 
     public List<ZerobaseCourse> getOpenZerobaseCourse(LocalDate targetDt) {
+        List<ZerobaseCourse> zerobaseCourseList = new ArrayList<>();
         // TODO: status = "OPEN" 이고, hidden = false 이며,
         //  startAt <= targetDt && targetDt <= endAt 인 강의만 조회되어야함.
         return null;
